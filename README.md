@@ -11,12 +11,6 @@ mvn clean package
 
 ## Prerequisites
 
-Install Kafka locally for the Kafka tools e.g.
-
-```bash
-brew install kafka
-```
-
 Run Kafka with:
 
 ```bash
@@ -30,7 +24,7 @@ docker-compose down
 docker-compose rm
 ```
 
-Then, create the `orders` topic with `./create-topics.sh`
+Then, create the `orders` topic with `./create-topics-docker.sh`
 
 # Run the demo
 
