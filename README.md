@@ -11,6 +11,12 @@ mvn clean package
 
 ## Prerequisites
 
+Install test HTTP client:
+
+```bash
+brew install httpie
+```
+
 Run Kafka with:
 
 ```bash
